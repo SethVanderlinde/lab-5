@@ -1,2 +1,9 @@
-
+input, label {
+    width: 100px;
+    display: block;
+    
+}
+form div {
+    margin-bottom: 12px;
+}
 
