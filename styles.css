@@ -1,9 +1,58 @@
-input, label {
-    width: 100px;
-    display: block;
-    
-}
-form div {
-    margin-bottom: 12px;
+body {
+    width:600px;
+    margin:auto;
 }
 
+header {
+    margin-bottom:20px;
+}
+
+nav {
+    margin-top:10px;
+    align-items:center;
+}
+
+nav a {
+    display:block;
+    width:120px;
+    padding:8px;
+    border:1px solid gray;
+    color:black;
+    background-color:#f2f2f2;
+}
+
+nav a[href="contact.html"] {
+    background-color:#2a95c5;
+    color:white;
+}
+
+section {
+    margin-top:30px;
+}
+
+form div {
+    display:flex;
+    align-items:center;
+    margin-bottom:10px;
+}
+
+label {
+    width: 120px;
+    text-align:right;
+    margin-right:10px;
+}
+
+input, textarea {
+    border:1px solid gray;
+    padding:5px;
+}
+
+textarea {
+    height:70px;
+    width:200px;
+}
+
+button {
+    margin-left: 130px;
+    margin-top: 10px;
+}
